@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin("*") //all clients can call this api
 @RestController
 @RequestMapping("/api/employees")
 @AllArgsConstructor
