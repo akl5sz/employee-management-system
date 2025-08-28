@@ -6,6 +6,7 @@ const ListEmployeeComponent = () => {
     
     const [employees, setEmployees] = useState([])
     const navigator = useNavigate();
+    
     useEffect(()=>{
         listEmployees().then((response) => {
             setEmployees(response.data);
