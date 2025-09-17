@@ -42,12 +42,13 @@ git clone https://github.com/akl5sz/employee-management-system.git
 cd employee-management-system
 ```
 2. Database Setup (MySQL)
-Make sure MySQL is installed and running locally (default port: 3306).
-Log into MySQL and create the database:
+
+- Make sure MySQL is installed and running locally (default port: 3306).
+- Log into MySQL and create the database:
 ```SQL CREATE DATABASE ems;```
 
 
-Update ems-backend/src/main/resources/application.properties with your MySQL username and password:
+- Update ems-backend/src/main/resources/application.properties with your MySQL username and password:
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/ems
 spring.datasource.username=root
