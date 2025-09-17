@@ -62,7 +62,7 @@ cd ems-backend
 mvn clean install
 mvn spring-boot:run
 ```
-Backend will start at: http://localhost:8080
+- Backend will start at: http://localhost:8080
 
 4. Frontend (React)
 ```bash
@@ -70,4 +70,4 @@ cd ems-frontend
 npm install
 npm run dev
 ```
-Frontend will start at: http://localhost:3000
+- Frontend will start at: http://localhost:3000
