@@ -69,4 +69,4 @@ cd ems-frontend
 npm install
 npm run dev
 ```
-Frontend will start at: http://localhost:5173
+Frontend will start at: http://localhost:3000
